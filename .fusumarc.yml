@@ -1,0 +1,21 @@
+meta:
+  url: https://github.com/MarcLoupias/bbl-accor-20190620
+  name: Intégration Continue
+  author: Marc Loupias
+  thumbnail: https://avatars0.githubusercontent.com/u/5159723?s=460&v=4
+  description: Présentation sur l'intégration continue
+slide:
+  loop: true
+  sidebar: true
+  targetBlank: true
+  showIndex: true
+  isVertical: false
+  code:
+    languages:
+      - javascript
+      - bash
+    plugins: []
+    theme: default
+extends:
+  js: index.js
+  css: style.css
