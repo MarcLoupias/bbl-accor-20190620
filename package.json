@@ -14,6 +14,6 @@
         "url": "https://github.com/MarcLoupias/bbl-accor-20190620"
     },
     "devDependencies": {
-        "fusuma": "^1.1.2"
+        "fusuma": "^1.16.0"
     }
 }
