@@ -1,16 +1,18 @@
+import { Header } from '../assets/scripts/header.js';
+
 <!-- sectionTitle: Continuous Delivery Oriented (GitHub/GitLab Flow) -->
 
 ## Continuous Delivery Oriented (GitHub/GitLab Flow)
 
 ---
 
-<header class="bg-secondary"><span>Intégration Continue </span><svg class="fa-long-arrow-right"><use xlink:href="#fa-long-arrow-right"></use></svg><span> Continuous Delivery Oriented (GitHub/GitLab Flow)</span></header>
+<Header title="Intégration Continue" section="Continuous Delivery Oriented (GitHub/GitLab Flow)" />
 
 ### Principes de base
 
 [GitHub Flow](http://scottchacon.com/2011/08/31/github-flow.html) / [GitLab Flow](https://docs.gitlab.com/ee/workflow/gitlab_flow.html)
 
-<img src="../assets/images/github-flow.png"></img>
+<img src="../assets/images/github-flow.png" alt="Github Flow" class="img-50"></img>
 
 - 1 branche `=` 1 feature
 - une seule branche de collaboration (le trunk / `master`)
@@ -28,7 +30,7 @@
 
 ---
 
-<header class="bg-secondary"><span>Intégration Continue </span><svg class="fa-long-arrow-right"><use xlink:href="#fa-long-arrow-right"></use></svg><span> Continuous Delivery Oriented (GitHub/GitLab Flow)</span></header>
+<Header title="Intégration Continue" section="Continuous Delivery Oriented (GitHub/GitLab Flow)" />
 
 ### Gestion du scope fonctionnel
 
@@ -43,7 +45,7 @@ Les features sont seulement priorisées dans le backlog, et : *It's done when it
 
 ---
 
-<header class="bg-secondary"><span>Intégration Continue </span><svg class="fa-long-arrow-right"><use xlink:href="#fa-long-arrow-right"></use></svg><span> Continuous Delivery Oriented (GitHub/GitLab Flow)</span></header>
+<Header title="Intégration Continue" section="Continuous Delivery Oriented (GitHub/GitLab Flow)" />
 
 ### Gestion des MEP
 
@@ -54,7 +56,7 @@ Les features sont seulement priorisées dans le backlog, et : *It's done when it
 
 ---
 
-<header class="bg-secondary"><span>Intégration Continue </span><svg class="fa-long-arrow-right"><use xlink:href="#fa-long-arrow-right"></use></svg><span> Continuous Delivery Oriented (GitHub/GitLab Flow)</span></header>
+<Header title="Intégration Continue" section="Continuous Delivery Oriented (GitHub/GitLab Flow)" />
 
 ### Prérequis
 
@@ -69,7 +71,7 @@ Les features sont seulement priorisées dans le backlog, et : *It's done when it
 
 ---
 
-<header class="bg-secondary"><span>Intégration Continue </span><svg class="fa-long-arrow-right"><use xlink:href="#fa-long-arrow-right"></use></svg><span> Continuous Delivery Oriented (GitHub/GitLab Flow)</span></header>
+<Header title="Intégration Continue" section="Continuous Delivery Oriented (GitHub/GitLab Flow)" />
 
 ### Avantages
 
@@ -82,7 +84,7 @@ Les features sont seulement priorisées dans le backlog, et : *It's done when it
 
 ---
 
-<header class="bg-secondary"><span>Intégration Continue </span><svg class="fa-long-arrow-right"><use xlink:href="#fa-long-arrow-right"></use></svg><span> Continuous Delivery Oriented (GitHub/GitLab Flow)</span></header>
+<Header title="Intégration Continue" section="Continuous Delivery Oriented (GitHub/GitLab Flow)" />
 
 ### Inconvénients
 

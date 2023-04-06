@@ -7,3 +7,39 @@ body {
     color: #000000;
     background: #f7f9fb;
 }
+
+header {
+    left: 0;
+    position: absolute;
+    top: 0;
+    z-index: 3;
+    width: 100%;
+    display: block;
+    padding: 20px;
+    background-color: #67d;
+    font-size: 28px;
+    color: #fff;
+    text-shadow: 0 1px 0 #013;
+}
+
+.arrow-right {
+    width: 14px;
+    height: 14px;
+    color: #fff;
+    fill: #fff;
+}
+
+.img-50 {
+    width: 50%;
+    height: 50%;
+}
+
+.img-33 {
+    width: 33%;
+    height: 33%;
+}
+
+.img-10 {
+    width: 10%;
+    height: 10%;
+}

@@ -4,15 +4,30 @@
 
 ## Usage
 
+### Installation des dépendances
+
 ```bash
 $ npm ci
+```
+
+### Mode dev en local
+
+```bash
 $ npm start
 ```
 
-ou
+### Build final
 
 ```bash
-$ npm ci
 $ npm run build
-$ npm run start-build
+$ npm run start-prod
 ```
+
+### Génération PDF
+
+```bash
+$ npm run build
+$ npm run pdf
+```
+
+

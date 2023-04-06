@@ -1,10 +1,12 @@
+import { Header } from '../assets/scripts/header.js';
+
 <!-- sectionTitle: Feature Branching (GitFlow) -->
 
 ## Feature Branching (GitFlow)
 
 ---
 
-<header class="bg-secondary"><span>Intégration Continue </span><svg class="fa-long-arrow-right"><use xlink:href="#fa-long-arrow-right"></use></svg><span> Feature Branching (GitFlow)</span></header>
+<Header title="Intégration Continue" section="Feature Branching (GitFlow)" />
 
 ### Principes de base
 
@@ -12,7 +14,7 @@
 
 <div class="wrap">
   <div class="card-50 bg-white">
-    <img src="../assets/images/gitflow.png" height="600" width="600"></img>
+    <img src="../assets/images/gitflow.png" alt="GitFlow" class="img-33"></img>
     <div class="flex-content">
       <ul class="flexblock specs">
         <li><p>1 branche <code>=</code> 1 feature</p></li>
@@ -27,19 +29,19 @@
 
 ---
 
-<header class="bg-secondary"><span>Intégration Continue </span><svg class="fa-long-arrow-right"><use xlink:href="#fa-long-arrow-right"></use></svg><span> Feature Branching (GitFlow)</span></header>
+<Header title="Intégration Continue" section="Feature Branching (GitFlow)" />
 
 ### Gestion du scope fonctionnel
 
 <br/>
 
 - `develop` ne contient que le scope de la future release
-- on freeze les PR jusqu'à création branche de release 
+- on freeze les PR jusqu'à création branche de release
 - la branche de release prépare la MEP (QA)
 
 ---
 
-<header class="bg-secondary"><span>Intégration Continue </span><svg class="fa-long-arrow-right"><use xlink:href="#fa-long-arrow-right"></use></svg><span> Feature Branching (GitFlow)</span></header>
+<Header title="Intégration Continue" section="Feature Branching (GitFlow)" />
 
 ### Gestion des MEP
 
@@ -51,7 +53,7 @@
 
 ---
 
-<header class="bg-secondary"><span>Intégration Continue </span><svg class="fa-long-arrow-right"><use xlink:href="#fa-long-arrow-right"></use></svg><span> Feature Branching (GitFlow)</span></header>
+<Header title="Intégration Continue" section="Feature Branching (GitFlow)" />
 
 ### Avantages
 
@@ -64,13 +66,13 @@
 
 ---
 
-<header class="bg-secondary"><span>Intégration Continue </span><svg class="fa-long-arrow-right"><use xlink:href="#fa-long-arrow-right"></use></svg><span> Feature Branching (GitFlow)</span></header>
+<Header title="Intégration Continue" section="Feature Branching (GitFlow)" />
 
 ### Inconvénients
 
 <br/>
 
-- confusion dans les targets des merges fréquentes 
+- confusion dans les targets des merges fréquentes
 (vers `develop` ? `release/*` ? `hotfix/*` ? `master` ?)
 - faible fréquence d'intégration :
   - code review plus longues et difficiles
@@ -86,7 +88,7 @@
 
 ---
 
-<header class="bg-secondary"><span>Intégration Continue </span><svg class="fa-long-arrow-right"><use xlink:href="#fa-long-arrow-right"></use></svg><span> Feature Branching (GitFlow)</span></header>
+<Header title="Intégration Continue" section="Feature Branching (GitFlow)" />
 
 ### Cercle vicieux
 
@@ -101,6 +103,6 @@ Certains inconvénients entrainent d'autres inconvénients :
 - embouteillages fin sprint entrainent rush et stress
 - difficultés à dev en parallèle des versions mal comprises du métier
   - incompréhension des causes techniques
-  - incompréhension des conséquences des choix de scopage des releases par le métier 
+  - incompréhension des conséquences des choix de scopage des releases par le métier
   (cf [Concurrent development of consecutive releases - trunkbaseddevelopment.com](https://trunkbaseddevelopment.com/concurrent-development-of-consecutive-releases/))
-- etc ... 
+- etc ...

@@ -1,6 +1,6 @@
 <!-- sectionTitle: Sources -->
 
-# Sources
+## Sources
 
 - [www.thoughtworks.com](https://www.thoughtworks.com/continuous-integration)
 - [Continuous Integration, Martin Fowler - 01/05/2006](https://www.martinfowler.com/articles/continuousIntegration.html)

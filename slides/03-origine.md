@@ -1,10 +1,12 @@
+import { Header } from '../assets/scripts/header.js';
+
 <!-- sectionTitle: Origine -->
 
 ## Origine
 
 ---
 
-<header class="bg-secondary"><span>Intégration Continue </span><svg class="fa-long-arrow-right"><use xlink:href="#fa-long-arrow-right"></use></svg><span> Origine</span></header>
+<Header title="Intégration Continue" section="Origine" />
 
 Selon les sources :
 
@@ -16,7 +18,7 @@ Selon les sources :
 
 ---
 
-<header class="bg-secondary"><span>Intégration Continue </span><svg class="fa-long-arrow-right"><use xlink:href="#fa-long-arrow-right"></use></svg><span> Origine</span></header>
+<Header title="Intégration Continue" section="Origine" />
 
 Vient de l'Extreme Programming :
 
@@ -26,11 +28,11 @@ Vient de l'Extreme Programming :
 - code review
 - pair programming
 - TDD
-- ... 
+- ...
 
 ---
 
-<header class="bg-secondary"><span>Intégration Continue </span><svg class="fa-long-arrow-right"><use xlink:href="#fa-long-arrow-right"></use></svg><span> Origine</span></header>
+<Header title="Intégration Continue" section="Origine" />
 
 Influence fortement Agile Manifesto (2001).
 

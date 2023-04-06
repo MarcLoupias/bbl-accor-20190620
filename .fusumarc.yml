@@ -5,11 +5,9 @@ meta:
   thumbnail: https://avatars0.githubusercontent.com/u/5159723?s=460&v=4
   description: Présentation sur l'intégration continue
 slide:
-  loop: true
-  sidebar: true
   targetBlank: true
-  showIndex: true
-  isVertical: false
+  ui:
+      pagination:
   code:
     languages:
       - javascript
@@ -17,5 +15,4 @@ slide:
     plugins: []
     theme: default
 extends:
-  js: index.js
   css: style.css

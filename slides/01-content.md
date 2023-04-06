@@ -1,5 +1,3 @@
 ## Contenu
 
-<div>
 <!-- contents -->
-</div>

@@ -1,10 +1,12 @@
+import { Header } from '../assets/scripts/header.js';
+
 <!-- sectionTitle: Continuous Integration Oriented (Trunk-based Dev) -->
 
 ## Continuous Integration Oriented (Trunk-based Dev)
 
 ---
 
-<header class="bg-secondary"><span>Intégration Continue </span><svg class="fa-long-arrow-right"><use xlink:href="#fa-long-arrow-right"></use></svg><span> Continuous Integration Oriented (Trunk-based Dev)</span></header>
+<Header title="Intégration Continue" section="Continuous Integration Oriented (Trunk-based Dev)" />
 
 ### Principes de base
 
@@ -12,7 +14,7 @@
 
 <div class="wrap">
   <div class="card-50 bg-white">
-    <img src="../assets/images/trunk-based-dev-workflow.png"></img>
+    <img src="../assets/images/trunk-based-dev-workflow.png" alt="Trunk Based Dev" class="img-50"></img>
     <div class="flex-content">
       <ul class="flexblock specs">
         <li><p>1 branche <code>!=</code> 1 feature, 1 branche <code>=</code> 1 petite révision (2h de taf, 2j maxi)</p></li>
@@ -27,7 +29,7 @@
 
 ---
 
-<header class="bg-secondary"><span>Intégration Continue </span><svg class="fa-long-arrow-right"><use xlink:href="#fa-long-arrow-right"></use></svg><span> Continuous Integration Oriented (Trunk-based Dev)</span></header>
+<Header title="Intégration Continue" section="Continuous Integration Oriented (Trunk-based Dev)" />
 
 ### Gestion du scope fonctionnel :
 
@@ -54,11 +56,11 @@ Sinon c'est plus du toggle mais de la configuration, donc une feature en soi.
 
 ---
 
-<header class="bg-secondary"><span>Intégration Continue </span><svg class="fa-long-arrow-right"><use xlink:href="#fa-long-arrow-right"></use></svg><span> Continuous Integration Oriented (Trunk-based Dev)</span></header>
+<Header title="Intégration Continue" section="Continuous Integration Oriented (Trunk-based Dev)" />
 
 ### Gestion des MEP
 
-<img src="../assets/images/trunk-based-dev-releases.png"></img>
+<img src="../assets/images/trunk-based-dev-releases.png" alt="Trunk Based Dev Releases" class="img-33"></img>
 
 <br/>
 
@@ -77,9 +79,9 @@ Sinon c'est plus du toggle mais de la configuration, donc une feature en soi.
 
 ---
 
-<header class="bg-secondary"><span>Intégration Continue </span><svg class="fa-long-arrow-right"><use xlink:href="#fa-long-arrow-right"></use></svg><span> Continuous Integration Oriented (Trunk-based Dev)</span></header>
+<Header title="Intégration Continue" section="Continuous Integration Oriented (Trunk-based Dev)" />
 
-### Prérequis 
+### Prérequis
 
 <br/>
 
@@ -90,7 +92,7 @@ Sinon c'est plus du toggle mais de la configuration, donc une feature en soi.
 
 ---
 
-<header class="bg-secondary"><span>Intégration Continue </span><svg class="fa-long-arrow-right"><use xlink:href="#fa-long-arrow-right"></use></svg><span> Continuous Integration Oriented (Trunk-based Dev)</span></header>
+<Header title="Intégration Continue" section="Continuous Integration Oriented (Trunk-based Dev)" />
 
 ### Avantages
 
@@ -107,7 +109,7 @@ Sinon c'est plus du toggle mais de la configuration, donc une feature en soi.
 
 ---
 
-<header class="bg-secondary"><span>Intégration Continue </span><svg class="fa-long-arrow-right"><use xlink:href="#fa-long-arrow-right"></use></svg><span> Continuous Integration Oriented (Trunk-based Dev)</span></header>
+<Header title="Intégration Continue" section="Continuous Integration Oriented (Trunk-based Dev)" />
 
 ### Inconvénients
 
@@ -122,7 +124,7 @@ Sinon c'est plus du toggle mais de la configuration, donc une feature en soi.
 
 ---
 
-<header class="bg-secondary"><span>Intégration Continue </span><svg class="fa-long-arrow-right"><use xlink:href="#fa-long-arrow-right"></use></svg><span> Continuous Integration Oriented (Trunk-based Dev)</span></header>
+<Header title="Intégration Continue" section="Continuous Integration Oriented (Trunk-based Dev)" />
 
 ### DevOps
 
@@ -132,11 +134,11 @@ Point de vue DevOps c'est aujourd'hui l'état de l'art en matière de gestion de
 
 <div class="wrap">
   <div class="card-50 bg-white">
-    <img src="../assets/images/accelerate-webcover.jpg" width="241" height="350"></img>
+    <img src="../assets/images/accelerate-webcover.jpg" alt="Accelerate book" class="img-10"></img>
     <div class="flex-content">
       <p>Cf "Accelerate, The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations"</p>
       <p>27 mars 2018</p>
-      <p>https://itrevolution.com/book/accelerate/</p>      
+      <p>https://itrevolution.com/book/accelerate/</p>
     </div>
   </div>
 </div>

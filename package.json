@@ -1,11 +1,12 @@
 {
     "name": "bbl-accor-20190620",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "description": "Présentation sur l'intégration continue au BBL du 20/06/2019 chez Accor",
     "scripts": {
         "start": "npx fusuma start",
         "build": "npx fusuma build",
-        "start-build": "npx http-server dist/"
+        "start-prod": "npx fusuma start-prod dist/",
+        "pdf": "npx fusuma pdf"
     },
     "author": "Marc Loupias <contact@marcosoft.io>",
     "license": "CC-BY-SA-4.0",
@@ -14,6 +15,7 @@
         "url": "https://github.com/MarcLoupias/bbl-accor-20190620"
     },
     "devDependencies": {
-        "fusuma": "^1.1.2"
+        "@fusuma/task-pdf": "^2.8.4",
+        "fusuma": "^2.8.4"
     }
 }

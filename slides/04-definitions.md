@@ -1,17 +1,19 @@
+import { Header } from '../assets/scripts/header.js';
+
 <!-- sectionTitle: Définitions -->
 
 ## Définitions
 
 ---
 
-<header class="bg-secondary"><span>Intégration Continue </span><svg class="fa-long-arrow-right"><use xlink:href="#fa-long-arrow-right"></use></svg><span> Définitions</span></header>
+<Header title="Intégration Continue" section="Définitions" />
 
 ```text
-Continuous Integration (CI) is a development practice that requires developers 
-to integrate code into a shared repository several times a day. 
+Continuous Integration (CI) is a development practice that requires developers
+to integrate code into a shared repository several times a day.
 
-Each check-in is then verified by an automated build, 
-allowing teams to detect problems early. 
+Each check-in is then verified by an automated build,
+allowing teams to detect problems early.
 ```
 
 <br/>
@@ -20,11 +22,11 @@ allowing teams to detect problems early.
 
 ---
 
-<header class="bg-secondary"><span>Intégration Continue </span><svg class="fa-long-arrow-right"><use xlink:href="#fa-long-arrow-right"></use></svg><span> Définitions</span></header>
+<Header title="Intégration Continue" section="Définitions" />
 
 <div class="wrap">
   <div class="card-50 bg-white">
-    <img src="../assets/images/ci-growing-vs-building.png"></img>
+    <img src="../assets/images/ci-growing-vs-building.png" alt="Growing vs Building" class="img-50"></img>
     <div class="flex-content">
       <p>C'est la mise en oeuvre connue la plus proche de l'idée qu'un logiciel ne se construit pas, il se grandit.</p>
     </div>
@@ -33,11 +35,11 @@ allowing teams to detect problems early.
 
 <br/>
 
-cf: Brooks, Frederick P., ["No Silver Bullet: Essence and Accidents of Software Engineering,"](http://www.cs.nott.ac.uk/~pszcah/G51ISS/Documents/NoSilverBullet.html) Computer, Vol. 20, No. 4 (April 1987) pp. 10-19. 
+cf: Brooks, Frederick P., ["No Silver Bullet: Essence and Accidents of Software Engineering,"](http://www.cs.nott.ac.uk/~pszcah/G51ISS/Documents/NoSilverBullet.html) Computer, Vol. 20, No. 4 (April 1987) pp. 10-19.
 
 ---
 
-<header class="bg-secondary"><span>Intégration Continue </span><svg class="fa-long-arrow-right"><use xlink:href="#fa-long-arrow-right"></use></svg><span> Définitions</span></header>
+<Header title="Intégration Continue" section="Définitions" />
 
 ### Prérequis
 
@@ -69,7 +71,7 @@ You must put everything required for a build in the source control system.
 
 ---
 
-<header class="bg-secondary"><span>Intégration Continue </span><svg class="fa-long-arrow-right"><use xlink:href="#fa-long-arrow-right"></use></svg><span> Définitions</span></header>
+<Header title="Intégration Continue" section="Définitions" />
 
 ### Prérequis
 
@@ -94,7 +96,7 @@ $ npm test
 
 ---
 
-<header class="bg-secondary"><span>Intégration Continue </span><svg class="fa-long-arrow-right"><use xlink:href="#fa-long-arrow-right"></use></svg><span> Définitions</span></header>
+<Header title="Intégration Continue" section="Définitions" />
 
 ### Etapes :
 
@@ -142,13 +144,13 @@ Ces étapes sont répétées plusieurs fois **par jour** pour chaque développeu
 
 ---
 
-<header class="bg-secondary"><span>Intégration Continue </span><svg class="fa-long-arrow-right"><use xlink:href="#fa-long-arrow-right"></use></svg><span> Définitions</span></header>
+<Header title="Intégration Continue" section="Définitions" />
 
 ### Quels impacts sur la gestion du code source ?
 
 ---
 
-<header class="bg-secondary"><span>Intégration Continue </span><svg class="fa-long-arrow-right"><use xlink:href="#fa-long-arrow-right"></use></svg><span> Définitions</span></header>
+<Header title="Intégration Continue" section="Définitions" />
 
 ### Quels impacts sur la gestion du code source ?
 
@@ -163,7 +165,7 @@ On va parler Git.
 
 ---
 
-<header class="bg-secondary"><span>Intégration Continue </span><svg class="fa-long-arrow-right"><use xlink:href="#fa-long-arrow-right"></use></svg><span> Définitions</span></header>
+<Header title="Intégration Continue" section="Définitions" />
 
 #### Comment intégrer les contributions ?
 
@@ -180,7 +182,7 @@ Avec une **branche d'intégration**.
 
 ---
 
-<header class="bg-secondary"><span>Intégration Continue </span><svg class="fa-long-arrow-right"><use xlink:href="#fa-long-arrow-right"></use></svg><span> Définitions</span></header>
+<Header title="Intégration Continue" section="Définitions" />
 
 #### Comment organiser l'intégration des contributions ?
 

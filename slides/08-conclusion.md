@@ -1,13 +1,15 @@
+import { Header } from '../assets/scripts/header.js';
+
 <!-- sectionTitle: Conclusion -->
 
-## Conclusion
+## Conclusion
 
 ---
 
-<header class="bg-secondary"><span>Intégration Continue </span><svg class="fa-long-arrow-right"><use xlink:href="#fa-long-arrow-right"></use></svg><span> Conclusion</span></header>
+<Header title="Intégration Continue" section="Conclusion" />
 
-<div class="flex-content">
-  <ul class="flexblock specs">
+<div>
+  <ul>
     <li>
       <h2>L'intégration continue (la pratique) a une définition très précise</h2>
       <p>On merge tout le temps, même quand pas terminé</p>
@@ -26,6 +28,15 @@
       <p>En France des sociétés comme BlablaCar, LesFurets, Doctolib, ...</p>
       <p>En France aucun grand compte à ma connaissance (sauf SoGé en finance de marché)</p>
     </li>
+  </ul>
+</div>
+
+---
+
+<Header title="Intégration Continue" section="Conclusion" />
+
+<div>
+  <ul>
     <li>
       <h2>Souvent des projets web BtoC</h2>
       <p>Releases fixes scopées pas utiles.</p>
@@ -37,7 +48,6 @@
       <p>Aucun sens de livrer 35 versions d'une lib par jour.</p>
       <p>Travail effectif rarement en fulltime.</p>
     </li>
+    <li><h2>Tout démarre à partir du workflow Git</h2></li>
   </ul>
 </div>
-
-**Tout démarre à partir du workflow Git**

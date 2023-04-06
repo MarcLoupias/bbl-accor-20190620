@@ -1,16 +1,18 @@
+import { Header } from '../assets/scripts/header.js';
+
 <!-- sectionTitle: Quiproquo ? -->
 
 ## Quiproquo ?
 
 ---
 
-<header class="bg-secondary"><span>Intégration Continue </span><svg class="fa-long-arrow-right"><use xlink:href="#fa-long-arrow-right"></use></svg><span> Quiproquo ?</span></header>
+<Header title="Intégration Continue" section="Quiproquo ?" />
 
 Une intégration continue désigne un outil :
 
 ---
 
-<header class="bg-secondary"><span>Intégration Continue </span><svg class="fa-long-arrow-right"><use xlink:href="#fa-long-arrow-right"></use></svg><span> Quiproquo ?</span></header>
+<Header title="Intégration Continue" section="Quiproquo ?" />
 
 Une intégration continue désigne un outil :
 
@@ -20,7 +22,7 @@ Une intégration continue désigne un outil :
 
 ---
 
-<header class="bg-secondary"><span>Intégration Continue </span><svg class="fa-long-arrow-right"><use xlink:href="#fa-long-arrow-right"></use></svg><span> Quiproquo ?</span></header>
+<Header title="Intégration Continue" section="Quiproquo ?" />
 
 Une intégration continue désigne un outil :
 
@@ -31,7 +33,7 @@ Une intégration continue désigne un outil :
 
 ---
 
-<header class="bg-secondary"><span>Intégration Continue </span><svg class="fa-long-arrow-right"><use xlink:href="#fa-long-arrow-right"></use></svg><span> Quiproquo ?</span></header>
+<Header title="Intégration Continue" section="Quiproquo ?" />
 
 Une intégration continue désigne un outil :
 
@@ -45,7 +47,8 @@ Une intégration continue désigne un outil :
 L'intégration continue désigne une pratique.
 
 ---
-<header class="bg-secondary"><span>Intégration Continue </span><svg class="fa-long-arrow-right"><use xlink:href="#fa-long-arrow-right"></use></svg><span> Quiproquo ?</span></header>
+
+<Header title="Intégration Continue" section="Quiproquo ?" />
 
 Une intégration continue désigne un outil :
 
